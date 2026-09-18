@@ -1,7 +1,7 @@
 # Forschungsarchiv – Beutelches & Salzekuchen
 
 **Projekt:** Vogelsberg 2.0 – Bären, Bräuche, Beutelches  
-**Stand:** 16.09.2026  
+**Stand:** 18.09.2026  
 **Leitfrage:** Wie wurden aus einfachen regionalen Alltags- bzw. Arme-Leute-Gerichten Vogelsberger Spezialitäten und Bestandteile regionaler Identität?
 
 > Dieses Archiv sichert den derzeit rekonstruierten Forschungsstand. Fundstücke sind nicht automatisch Belege für historische Aussagen. Schüler:innen sollen Quellen auswählen, untersuchen, bewerten und eigene Erkenntnisse formulieren. KI kann beim Auffinden und Ordnen möglicher Quellen helfen; ihr Einsatz ist zu dokumentieren.
@@ -111,6 +111,12 @@
 - Rezeptspur: rohe geriebene Kartoffeln; kleingeschnittener Lauch; gewürfeltes Solberfleisch oder Cervelatwurst; Brötchen; Salz; Majoran.
 - Herstellung: Masse in kleine längliche Leinenbeutel, zubinden, ca. eine Stunde in Salzwasser kochen, anschließend kalt abschrecken, damit sich das Beutelches leichter herausdrücken lässt; Zwiebelsoße.
 - Bedeutung: lokales Frischborner Rezept von 1986; direkt mit S020 aus derselben Sammlung vergleichbar.
+
+### B028 – „Voo Ääre bis Zwulch – Wäi die Aale noch schwassde“
+- Autoren: Herbert und Veronika-Henriette Loch; Frauenzimmer Verlag; ISBN 9783937013633; 172 Seiten.
+- Spur: oberhessische Mundart- und Erinnerungskultur; enthält laut Verlag gereimte Rezepte, darunter ausdrücklich Beulches, sowie historische Fotografien und Geschichten über früheres dörfliches Leben.
+- Forschungswert: Verbindung von Beulches, Mundart und regionaler Identität; als Sekundär-/Erinnerungsquelle geeignet. Das Buch liefert nach bisherigem Online-Nachweis **keinen belastbaren Beweis für ein bestimmtes Alter des Gerichts**; Erscheinungsjahr und die im Buch verwendeten älteren Quellen am Exemplar prüfen.
+- URL: https://www.frauenzimmer-verlag.de/oberhessische-mundart-1/
 
 ## S – Salzekuchen / Saalzekuche / Bloatz
 
@@ -229,7 +235,7 @@ Bei jedem Rezept/Interview prüfen:
 
 ## Offene Hauptbaustellen
 
-1. **Älteste belastbare Beutelches-Quelle:** Moderne Seiten sprechen teils von „seit Jahrhunderten“. Eine eindeutig datierte zeitgenössische Quelle aus dem 18./19. Jahrhundert wurde bislang nicht gefunden.
+1. **Älteste belastbare Beutelches-Quelle:** Moderne Seiten sprechen teils von „seit Jahrhunderten“. Auch die gezielte Websuche vom 18.09.2026 mit Schreibvarianten (Beutelches/Beulches/Beulche sowie Oberhessen/Lauterbach/Heimatbuch) ergab **keine eindeutig datierte zeitgenössische Quelle aus dem 18./19. oder frühen 20. Jahrhundert**. Die Altersbehauptung bleibt daher offen.
 2. **Vor 1980 kommen:** gezielt Heimatbücher, alte Zeitungen, Mundarttexte, Familienrezepte, Archive und Museumsbestände durchsuchen.
 3. **„25 Jahre Ludderbächer Saalzekuchejonge“ (1989)** beschaffen/einsehen.
 4. **Frischbörner Kochbuch:** bibliografische Daten am Buch selbst vollständig dokumentieren; die zwei fotografierten Seiten als Arbeitsquellen sichern.
