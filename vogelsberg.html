@@ -43,7 +43,8 @@ if(topic&&allowed.includes(topic)){
  const map=L.map('topicMap',{scrollWheelZoom:false,zoomSnap:.25,minZoom:9,maxBounds:[[50.24,8.72],[50.98,9.84]],maxBoundsViscosity:1});
  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap'}).addTo(map);
  const bounds=[];
- fetch('assets/vogelsbergkreis-grenze.geojson').then(r=>r.ok?r.json():Promise.reject()).then(g=>{
+ fetch('https://umweltatlas.hessen.de/arcgis/rest/services/geobasis/alkis_grenzen/MapServer/3/query?where='+encodeURIComponent("KREIS_NA='Vogelsbergkreis'")+'&outFields=KREIS_NA&returnGeometry=true&outSR=4326&f=geojson')
+ .then(r=>r.ok?r.json():Promise.reject()).then(g=>{
    L.geoJSON(g,{style:{color:'#2474b8',weight:3,opacity:.95,fill:false,interactive:false}}).addTo(map);
  }).catch(()=>{});
  rows.forEach(x=>{const m=L.marker([x[0],x[1]],{icon:markerIcons[x[3]]}).addTo(map);const title=document.createElement('strong');title.textContent=x[2];const p=document.createElement('p');p.textContent=x[4];const wrap=document.createElement('div');wrap.append(title,p);m.bindPopup(wrap);bounds.push([x[0],x[1]]);});
