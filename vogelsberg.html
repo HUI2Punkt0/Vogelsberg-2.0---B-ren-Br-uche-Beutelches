@@ -29,7 +29,7 @@ const food=[
 const allowed=['Beutelches','Salzekuchen'];
 const markerIcons={
  Salzekuchen:L.icon({iconUrl:'https://raw.githubusercontent.com/HUI2Punkt0/vogelsberg-20-kartenpins/main/salzekuchen-pin.png',iconSize:[54,64],iconAnchor:[27,61],popupAnchor:[0,-58]}),
- Beutelches:L.divIcon({className:'',html:'<div style="width:48px;height:48px;border-radius:50% 50% 50% 8px;transform:rotate(-45deg);background:#7b2639;border:4px solid #fff;box-shadow:0 3px 9px #0005;display:grid;place-items:center"><span style="transform:rotate(45deg);font-size:25px">🥔</span></div>',iconSize:[54,58],iconAnchor:[27,54],popupAnchor:[0,-50]})
+ Beutelches:L.icon({iconUrl:'https://raw.githubusercontent.com/HUI2Punkt0/vogelsberg-20-kartenpins/main/beutelches-pin.png',iconSize:[54,64],iconAnchor:[27,61],popupAnchor:[0,-58]})
 };
 if(topic&&allowed.includes(topic)){
  const h=document.getElementById('filterHint'),frame=document.getElementById('umapFrame'),box=document.getElementById('topicMap');
