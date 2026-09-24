@@ -69,58 +69,39 @@
 @media(max-width:650px){.map-hero .page-guide{display:none}}
 </style></head><body><nav class="globalnav"><div class="globalnav-inner"><a class="globalbrand" href="index.html">VOGELSBERG 2.0</a><div class="globallinks"><a href="index.html#schwerpunkt">Speisen</a><a href="index.html#entdecken">Bräuche</a><a href="vogelsberg.html">🗺️ Karte</a><a href="index.html#zeitmaschine">Zeitreise</a><a href="quellenarchiv.html">Unsere Forschung</a><a href="index.html#mitforschen">Mitforschen</a></div></div></nav><header class="hero map-hero guide-stage"><div class="page-guide map-guide"><span class="guide-note">Wo führt die nächste Spur hin?</span><img src="https://raw.githubusercontent.com/HUI2Punkt0/vogelsberg-20-kartenpins/main/beutelches-pin.png" alt="Beutelches als Wegbegleiter der Karte"><span class="guide-badge" aria-hidden="true">📍</span></div><small>Unsere Region · unsere Spurensuche</small><h1>Der <span>Vogelsberg</span></h1><p>Woher kommen unsere Gerichte? Wo leben Bräuche weiter? Und an welchen Orten finden wir Menschen, Quellen und Geschichten? Diese Seite ist die interaktive Landkarte unseres Projekts.</p><div class="hero-doodle">Unsere Heimat<br>entdecken!<span>♡</span></div></header><main><section class="wrap intro"><div><span class="kicker">Vom Ort zur Geschichte</span><h2>Eine Region voller Spuren</h2><p>Der Vogelsberg ist für unser Projekt nicht nur eine Kulisse. Dörfer, Backhäuser, Küchen, Vereinsräume und Familienarchive werden zu Orten historischer Spurensuche.</p><p>Auf der Karte sammeln wir nach und nach die Orte, an denen wir etwas entdeckt haben: eine Speise, einen Brauch, ein Rezept, ein Foto, eine Erinnerung oder einen Menschen, der etwas erzählen kann.</p></div><aside>„Jeder Punkt auf der Karte steht nicht nur für einen Ort – sondern für eine Geschichte, die sonst vielleicht verloren ginge.“</aside></section><section class="section alt" id="projektkarte"><div class="wrap"><div class="mapbox"><div class="maphead"><span class="kicker">Interaktive Karte · uMap</span><h2>Unsere Vogelsberg-Karte</h2><p><strong>Aktueller Forschungsstand:</strong> Auf der Karte sammeln wir fortlaufend belegte Spuren zu Speisen, Bräuchen, Traditionen, Quellen und Geschichten aus dem Vogelsberg. Sie wächst mit jeder neuen Recherche der Klasse weiter.</p><div class="filterhint" id="filterHint"></div></div><div id="topicMap" class="topicmap" aria-label="Gefilterte Themenkarte"></div><iframe id="umapFrame" class="umap-frame" src="https://umap.openstreetmap.fr/de/map/vogelsberg-20-baren-brauche-beutelches_1459224?scaleControl=false&miniMapControl=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true" allowfullscreen allow="geolocation" loading="lazy" title="Interaktive Karte Vogelsberg 2.0"></iframe></div><div class="legend"><div><b>🍽️ Speisen & Esskultur</b>Fundorte und regionale Varianten machen sichtbar, wo Gerichte wie Beutelches und Salzekuchen überliefert, zubereitet und weitergegeben werden.</div><div><b>🎭 Bräuche & Traditionen</b>Recherchierte Bräuche und lokale Besonderheiten zeigen, wie vielfältig das kulturelle Leben im Vogelsberg ist – und wo noch Forschungsfragen offen sind.</div><div><b>🎙️ Stimmen & 📜 Quellen</b>Quellen, Erinnerungen, Interviews und weitere Belege ergänzen die Ortsgeschichten und helfen uns, Hinweise von belegten Ergebnissen zu unterscheiden.</div></div></div></section><section class="section"><div class="wrap"><span class="kicker">Unsere Karte wächst</span><h2>Von einem Punkt direkt zur Geschichte</h2><div class="steps"><article><span>01 · Anklicken</span><h3>Ort auswählen</h3><p>Ein Marker zeigt, wo die Spur gefunden wurde.</p></article><article><span>02 · Entdecken</span><h3>Fundstück öffnen</h3><p>Kurzer Text, Foto, Forschungsgrafik oder Interview können wir direkt mit dem Ort verbinden.</p></article><article><span>03 · Weiterforschen</span><h3>Zusammenhänge sehen</h3><p>So wird sichtbar, welche Speisen und Bräuche in mehreren Orten vorkommen und wie sie sich unterscheiden.</p></article></div><div class="cta"><strong>Die Karte wächst mit ihren Geschichten.</strong> Sie zeigt unseren jeweils aktuellen Forschungsstand und wird fortlaufend erweitert, überprüft und mit Quellen, Interviews und weiteren Fundorten ergänzt. Änderungen, die wir direkt in uMap speichern, werden automatisch auch hier auf der Homepage sichtbar.<br><a class="back" href="index.html">← Zurück zur Ausstellung</a></div></div></section></main><footer class="foot"><strong>Vogelsberg 2.0 – Bären, Bräuche, Beutelches</strong><p>Ein Schülerprojekt der Jahrgangsstufe 7 · Schuljahr 2026/27</p></footer><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script>
 const topic=new URLSearchParams(location.search).get('thema');
-const food=[
-[50.75057,9.33834,'Backhaus Eifa','Salzekuchen','Im Backhaus wird regelmäßig Salzekuchen gebacken.'],
-[50.6023,9.38739,'Burg-Post / Schloss Eisenbach','Beutelches','Historische Schlossführungen werden mit Beutelches-Essen verbunden.'],
-[50.5101873,9.2256937,'HoherodskopfKlause','Beutelches','Regelmäßiges Beulchesessen am ersten Wochenende im Monat.'],
-[50.6602405,9.3881088,'Landgasthaus Jägerhof Maar','Beutelches','Vogelsberger Beutelches gehört ganzjährig zur regionalen Küche.'],
-[50.46118,9.20035,'Landgasthaus Zur Birke','Beutelches','Regionale Kartoffelküche; Beutelches wird als früheres Arme-Leute-Essen thematisiert.'],
-[50.60632,9.30067,'Backhaus Dirlammen','Salzekuchen','Lebendige Salzekuchen-Tradition im historischen Backhaus.'],
-[50.47025,9.27673,'Gasthaus Tor zum Vogelsberg','Beutelches','Beutelches wird saisonal und an besonderen Terminen angeboten.'],
-[50.7513903,9.2706177,'Bäckerei Günther, Alsfeld','Salzekuchen','Salzekuchen gehört zu den örtlich angebotenen Spezialitäten.'],
-[50.7497376,9.2694826,'Stadtbäckerei Rahn, Alsfeld','Salzekuchen','Der Betrieb nennt Salzekuchen als eigene Spezialität.'],
-[50.6259,9.0359,'Sellnrod','Salzekuchen','Schmierschelkuchen beim traditionellen Backhausfest.'],
-[50.7697,9.1035,'Kirtorf','Salzekuchen','Salzekuchen ist Teil des Kirmesauftakts.'],
-[50.7347,9.139,'Ober-Gleen','Salzekuchen','Salzekuchen beim traditionellen Kirmesausklang.'],
-[50.627,9.443,'Angersbach','Beutelches','Beutelches mit Zwiebelsoße und Krautsalat auf der Kirmes-Speisekarte.'],
-[50.6218,9.0287,'Flensungen','Salzekuchen','Schmierschelkuchen beim Backhausfest.'],
-[50.648,9.074,'Bernsfeld','Salzekuchen','Schmierschelkuchen aus dem örtlichen Backhaus.'],
-[50.651,9.188,'Köddingen','Salzekuchen','Salzekuchen aus den beiden bestehenden örtlichen Backhäusern.'],
-[50.793,9.19,'Ohmes','Salzekuchen','Salzekuchen direkt aus dem Backhaus.'],
-[50.69,9.058,'Burg-Gemünden','Salzekuchen','Salzekuchenbacken nach überlieferter Rezeptur.'],
-[50.709,9.008,'Deckenbach','Salzekuchen','Salzekuchenessen am Backhaus.'],
-[50.639,9.432,'Landenhausen','Salzekuchen','„Landenhäuser Salzekuchen“ als örtliche Spezialität.'],
-[50.60632,9.30105,'Feuerwehr Dirlammen','Beutelches','Beutelches mit Zwiebelsoße, Solper, Blutwurst oder vegetarisch.'],
-[50.67872,9.23017,'Ober-Breidenbach','Salzekuchen','Frischer Salzekuchen aus dem Backhaus.'],
-[50.33041,9.19532,'Landfrauen Wolferborn','Beutelches','Beulches-Tradition und Wissensweitergabe beim Kartoffelfest.'],
-[50.5844,9.04866,'Lardenbach/Klein-Eichen','Salzekuchen','Historischer Rezeptbeleg für Schmierschelkuchen („Hessische Pizza“).']
-];
 const allowed=['Beutelches','Salzekuchen'];
 const markerIcons={
  Salzekuchen:L.icon({iconUrl:'https://raw.githubusercontent.com/HUI2Punkt0/vogelsberg-20-kartenpins/main/salzekuchen-pin.png',iconSize:[54,64],iconAnchor:[27,61],popupAnchor:[0,-58]}),
  Beutelches:L.icon({iconUrl:'https://raw.githubusercontent.com/HUI2Punkt0/vogelsberg-20-kartenpins/main/beutelches-pin.png',iconSize:[54,64],iconAnchor:[27,61],popupAnchor:[0,-58]})
 };
-if(topic&&allowed.includes(topic)){
+async function renderTopicMap(topic){
  const h=document.getElementById('filterHint'),frame=document.getElementById('umapFrame'),box=document.getElementById('topicMap');
- frame.classList.add('hide');box.classList.add('show');h.classList.add('show');
- const rows=food.filter(x=>x[3]===topic);
- h.replaceChildren();
- const b=document.createElement('b');b.textContent='📍 Themenkarte: '+topic;h.appendChild(b);
- h.appendChild(document.createElement('br'));
- const s=document.createElement('span');s.className='mapcount';s.textContent=rows.length+' passende Fundorte';h.appendChild(s);
- h.append(' aus unserem geprüften Kartenbestand. Nur diese Marker werden angezeigt.');
- const map=L.map('topicMap',{scrollWheelZoom:false,zoomSnap:.25,minZoom:9,maxBounds:[[50.24,8.72],[50.98,9.84]],maxBoundsViscosity:1});
- L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap'}).addTo(map);
- const bounds=[];
- fetch('https://umweltatlas.hessen.de/arcgis/rest/services/geobasis/alkis_grenzen/MapServer/3/query?where='+encodeURIComponent("KREIS_NA='Vogelsbergkreis'")+'&outFields=KREIS_NA&returnGeometry=true&outSR=4326&f=geojson')
- .then(r=>r.ok?r.json():Promise.reject()).then(g=>{
-   L.geoJSON(g,{style:{color:'#2474b8',weight:3,opacity:.95,fill:false,interactive:false}}).addTo(map);
- }).catch(()=>{});
- rows.forEach(x=>{const m=L.marker([x[0],x[1]],{icon:markerIcons[x[3]]}).addTo(map);const title=document.createElement('strong');title.textContent=x[2];const p=document.createElement('p');p.textContent=x[4];const wrap=document.createElement('div');wrap.className='research-popup';wrap.append(title,p);const links=document.createElement('div');links.className='popup-links';const archive=document.createElement('a');archive.href='quellenarchiv.html';archive.textContent='🔎 Quellen & Forschungsstand';links.appendChild(archive);const time=document.createElement('a');time.href='index.html#zeitmaschine';time.textContent='⏳ Zur Zeitreise';links.appendChild(time);if(x[3]==='Beutelches'){const visual=document.createElement('a');visual.href='visuals.html#beutelches';visual.textContent='🎨 Forschungsgrafik';links.appendChild(visual);}if(x[3]==='Salzekuchen'){const visual=document.createElement('a');visual.href='visuals.html#salzekuchen';visual.textContent='🎨 Forschungsgrafik';links.appendChild(visual);}wrap.appendChild(links);m.bindPopup(wrap);bounds.push([x[0],x[1]]);});
- // Einheitlicher Kartenausschnitt rund um den Vogelsbergkreis – unabhängig von der Trefferlage.
- map.fitBounds([[50.30,8.78],[50.91,9.77]],{padding:[12,12]});
- h.scrollIntoView({behavior:'smooth',block:'center'});
-}else if(topic){
- const h=document.getElementById('filterHint');h.classList.add('show');h.textContent='Für „'+topic+'“ ist der echte Themenfilter noch nicht freigeschaltet. Die vollständige uMap bleibt sichtbar.';
+ try{
+  const response=await fetch('assets/mapdata.json',{cache:'no-store'});
+  if(!response.ok) throw new Error('Kartendaten nicht erreichbar');
+  const data=await response.json();
+  const rows=(data.items||[]).filter(x=>x.topic===topic);
+  frame.classList.add('hide');box.classList.add('show');h.classList.add('show');
+  h.replaceChildren();
+  const b=document.createElement('b');b.textContent='📍 Themenkarte: '+topic;h.appendChild(b);h.appendChild(document.createElement('br'));
+  const count=document.createElement('span');count.className='mapcount';count.textContent=rows.length+' passende Fundorte';h.appendChild(count);
+  h.append(' aus unserem freigegebenen Kartenbestand. Datenstand: '+(data.version||'laufend')+'.');
+  const map=L.map('topicMap',{scrollWheelZoom:false,zoomSnap:.25,minZoom:9,maxBounds:[[50.24,8.72],[50.98,9.84]],maxBoundsViscosity:1});
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap'}).addTo(map);
+  fetch('https://umweltatlas.hessen.de/arcgis/rest/services/geobasis/alkis_grenzen/MapServer/3/query?where='+encodeURIComponent("KREIS_NA='Vogelsbergkreis'")+'&outFields=KREIS_NA&returnGeometry=true&outSR=4326&f=geojson')
+   .then(r=>r.ok?r.json():Promise.reject()).then(g=>L.geoJSON(g,{style:{color:'#2474b8',weight:3,opacity:.95,fill:false,interactive:false}}).addTo(map)).catch(()=>{});
+  rows.forEach(x=>{
+   const m=L.marker([x.lat,x.lon],{icon:markerIcons[x.topic]}).addTo(map),wrap=document.createElement('div');wrap.className='research-popup';
+   const title=document.createElement('strong');title.textContent=x.name;const p=document.createElement('p');p.textContent=x.description;wrap.append(title,p);
+   const links=document.createElement('div');links.className='popup-links';
+   [['quellenarchiv.html','🔎 Quellen & Forschungsstand'],['index.html#zeitmaschine','⏳ Zur Zeitreise'],['visuals.html#'+x.topic.toLowerCase(),'🎨 Forschungsgrafik']].forEach(([href,label])=>{const a=document.createElement('a');a.href=href;a.textContent=label;links.appendChild(a)});
+   wrap.appendChild(links);m.bindPopup(wrap);
+  });
+  map.fitBounds([[50.30,8.78],[50.91,9.77]],{padding:[12,12]});h.scrollIntoView({behavior:'smooth',block:'center'});
+ }catch(err){
+  h.classList.add('show');h.innerHTML='<b>Die Themenkarte konnte gerade nicht geladen werden.</b><br>Die vollständige uMap bleibt verfügbar.';
+ }
 }
+if(topic&&allowed.includes(topic)) renderTopicMap(topic);
+else if(topic){const h=document.getElementById('filterHint');h.classList.add('show');h.textContent='Für „'+topic+'“ ist der Themenfilter noch nicht freigeschaltet. Die vollständige uMap bleibt sichtbar.';}
 </script></body></html>
