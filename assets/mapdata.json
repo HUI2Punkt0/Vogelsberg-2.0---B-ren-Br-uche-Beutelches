@@ -933,6 +933,67 @@
         "type": "historical",
         "label": "1935 · Sekundärzitat"
       }
+    },
+    {
+      "id": "custom-11",
+      "lat": 50.704,
+      "lon": 9.47,
+      "name": "Ützhausen",
+      "topic": "Erbsenbär",
+      "description": "Am 27. Dezember zieht die Dorfjugend mit dem Erbesbär durch Ützhausen. Früher wurde Erbsenstroh verwendet; heute wird die Figur mit anderem Getreidestroh gewickelt.",
+      "status": [
+        "verified",
+        "living"
+      ],
+      "source": {
+        "label": "Fuldaer Zeitung – Erbesbär hat in Ützhausen den Winter ausgetrieben (03.01.2025)",
+        "url": "https://www.fuldaerzeitung.de/vogelsberg/erbesbaer-hat-in-uetzhausen-den-winter-ausgetrieben-93495851.html",
+        "proof": "Der Bericht dokumentiert die aktuelle Ausübung und nennt 1962 als Wiederbelebung durch Reinhard Ritz und weitere Mitglieder der Dorfjugend."
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr"
+      },
+      "research_question": "Welche Originalquellen belegen die Ützhäuser Form vor ihrer Wiederbelebung 1962?",
+      "calendar": {
+        "type": "annual",
+        "label": "27. Dezember"
+      },
+      "timeline": [
+        {
+          "year": 1962,
+          "label": "Wiederbelebung des Ützhäuser Erbesbär-Brauchs laut Bericht von 2025",
+          "source_status": "Sekundärangabe – Originalbeleg noch suchen"
+        }
+      ]
+    },
+    {
+      "id": "custom-12",
+      "lat": 50.7144,
+      "lon": 9.5786,
+      "name": "Queck",
+      "topic": "Erbsenbär",
+      "description": "In Queck zieht am 27. Dezember der Erbesbär mit Gefolge durchs Dorf. Eine örtliche Besonderheit ist das „Blenge Gillerchen“ mit Gespannführer.",
+      "status": [
+        "verified",
+        "living"
+      ],
+      "source": {
+        "label": "Fuldaer Zeitung – Erbesbär macht Queck nach Schlitzerländer Tradition unsicher (28.12.2019)",
+        "url": "https://www.fuldaerzeitung.de/vogelsberg/erbesbaers-macht-queck-nach-schlitzerlaender-tradition-unsicher-13663031.html",
+        "proof": "Der Bericht dokumentiert 2019 zwanzig junge Teilnehmer, Roggenstroh für den Bären sowie die Quecker Figuren Erbesbär mit Führer, Paare „Mann und Frau“ und das „Blenge Gillerchen“ mit Gespannführer."
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr"
+      },
+      "research_question": "Was genau ist das „Blenge Gillerchen“, wie wird die Figur dargestellt und wie weit lässt sie sich in Queck zurückverfolgen?",
+      "calendar": {
+        "type": "annual",
+        "label": "27. Dezember"
+      }
     }
   ],
   "schema_version": 2,
