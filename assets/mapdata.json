@@ -199,9 +199,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Erlebnis Alsfeld – Bäckerei/Konditorei Günther",
+        "url": "https://www.erlebnis.alsfeld.de/geschaefte/baeckereikonditoreiguenther",
+        "proof": "Das städtische Portal führt Salzekuchen ausdrücklich als Spezialität der 1962 gegründeten Bäckerei Günther."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -209,8 +209,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#salzekuchen"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Wie hat sich Günthers Alsfelder Salzekuchen seit der Gründung der Bäckerei 1962 verändert?",
+      "calendar": {
+        "type": "continuous",
+        "label": "laufendes Bäckereiangebot"
+      }
     },
     {
       "id": "food-09",
@@ -223,9 +226,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Stadtbäckerei Rahn – Alsfelder Salzekuchen",
+        "url": "https://stadtbaeckerei-rahn.de/produkte/spezialitaeten/",
+        "proof": "Rahn beschreibt Alsfelder Salzekuchen aus Brotteig mit Kartoffeln, Speck und Zwiebeln, traditionell mit Kaffee serviert; angeboten wird auch eine vegetarische Variante."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -233,8 +236,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#salzekuchen"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Seit wann gehört Salzekuchen zum Sortiment der Stadtbäckerei Rahn – und wann kam die vegetarische Variante hinzu?",
+      "calendar": {
+        "type": "continuous",
+        "label": "laufendes Bäckereiangebot"
+      }
     },
     {
       "id": "food-10",
@@ -586,9 +592,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Landfrauenverein Wolferborn – Historie",
+        "url": "https://landfrauenwolferborn.de/historie/",
+        "proof": "Die Vereinschronik nennt das Kartoffelfest 1997 und dokumentiert die Wiederbelebung 2023 mit Beulches und Langen Klößen zur Vorbestellung und Abholung."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -596,8 +602,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#beutelches"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Welche Rezepte, Beulchessäcke und Arbeitsschritte wurden beim Kartoffelfest über Generationen weitergegeben?",
+      "calendar": {
+        "type": "annual",
+        "label": "Kartoffelfest · Herbst"
+      }
     },
     {
       "id": "food-24",
