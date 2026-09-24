@@ -994,6 +994,32 @@
         "type": "annual",
         "label": "27. Dezember"
       }
+    },
+    {
+      "id": "custom-13",
+      "lat": 50.704,
+      "lon": 9.61,
+      "name": "Willofs",
+      "topic": "Erbsenbär",
+      "description": "Willofs wird in der Berichterstattung aus dem Schlitzerland als weiterer Ort genannt, in dem der Erbesbär-Brauch ausgeübt wird.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Osthessen News – Der Erbesbär in Ützhausen ist los (2016)",
+        "url": "https://osthessen-news.de/n11548030/der-erbesbaer-in-uetzhausen-ist-los-dorfjugend-wahrt-lange-tradition.html",
+        "proof": "Der Bericht nennt neben Ützhausen ausdrücklich Willofs, Hutzdorf, Queck und Üllershausen als Orte, in denen der Brauch ebenfalls ausgeübt wird. Für Willofs fehlt uns bislang ein eigener aktueller Detailbericht."
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr"
+      },
+      "research_question": "Wie sieht die Willofser Variante des Erbesbären konkret aus, wann findet sie statt und gibt es eigene Fotos, Berichte oder Zeitzeugen?",
+      "calendar": {
+        "type": "unknown",
+        "label": "Termin für Willofs noch zu belegen"
+      }
     }
   ],
   "schema_version": 2,
