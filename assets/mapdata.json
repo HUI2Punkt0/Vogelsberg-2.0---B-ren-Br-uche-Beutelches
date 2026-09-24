@@ -1,6 +1,6 @@
 {
   "version": "2026-09-24",
-  "note": "Zentrale Datenquelle für die freigeschalteten Themenfilter. Quellen-/Detailverknüpfung wird schrittweise ergänzt; keine erfundenen Einzelquellen.",
+  "note": "Zentrale Datenquelle für freigeschaltete Themenfilter. Status 'verified' bedeutet hier: Der Kartenpunkt stammt aus dem bereits geprüften Kartenbestand. Einzelquelle, Belegumfang, Kalenderbezug und Forschungsfrage werden nur ergänzt, wenn sie konkret dokumentiert sind; leere Felder werden nicht erfunden.",
   "items": [
     {
       "id": "food-01",
@@ -8,7 +8,23 @@
       "lon": 9.33834,
       "name": "Backhaus Eifa",
       "topic": "Salzekuchen",
-      "description": "Im Backhaus wird regelmäßig Salzekuchen gebacken."
+      "description": "Im Backhaus wird regelmäßig Salzekuchen gebacken.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#salzekuchen"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-02",
@@ -16,7 +32,23 @@
       "lon": 9.38739,
       "name": "Burg-Post / Schloss Eisenbach",
       "topic": "Beutelches",
-      "description": "Historische Schlossführungen werden mit Beutelches-Essen verbunden."
+      "description": "Historische Schlossführungen werden mit Beutelches-Essen verbunden.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#beutelches"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-03",
@@ -24,7 +56,23 @@
       "lon": 9.2256937,
       "name": "HoherodskopfKlause",
       "topic": "Beutelches",
-      "description": "Regelmäßiges Beulchesessen am ersten Wochenende im Monat."
+      "description": "Regelmäßiges Beulchesessen am ersten Wochenende im Monat.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#beutelches"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-04",
@@ -32,7 +80,23 @@
       "lon": 9.3881088,
       "name": "Landgasthaus Jägerhof Maar",
       "topic": "Beutelches",
-      "description": "Vogelsberger Beutelches gehört ganzjährig zur regionalen Küche."
+      "description": "Vogelsberger Beutelches gehört ganzjährig zur regionalen Küche.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#beutelches"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-05",
@@ -40,7 +104,23 @@
       "lon": 9.20035,
       "name": "Landgasthaus Zur Birke",
       "topic": "Beutelches",
-      "description": "Regionale Kartoffelküche; Beutelches wird als früheres Arme-Leute-Essen thematisiert."
+      "description": "Regionale Kartoffelküche; Beutelches wird als früheres Arme-Leute-Essen thematisiert.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#beutelches"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-06",
@@ -48,7 +128,23 @@
       "lon": 9.30067,
       "name": "Backhaus Dirlammen",
       "topic": "Salzekuchen",
-      "description": "Lebendige Salzekuchen-Tradition im historischen Backhaus."
+      "description": "Lebendige Salzekuchen-Tradition im historischen Backhaus.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#salzekuchen"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-07",
@@ -56,7 +152,23 @@
       "lon": 9.27673,
       "name": "Gasthaus Tor zum Vogelsberg",
       "topic": "Beutelches",
-      "description": "Beutelches wird saisonal und an besonderen Terminen angeboten."
+      "description": "Beutelches wird saisonal und an besonderen Terminen angeboten.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#beutelches"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-08",
@@ -64,7 +176,23 @@
       "lon": 9.2706177,
       "name": "Bäckerei Günther, Alsfeld",
       "topic": "Salzekuchen",
-      "description": "Salzekuchen gehört zu den örtlich angebotenen Spezialitäten."
+      "description": "Salzekuchen gehört zu den örtlich angebotenen Spezialitäten.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#salzekuchen"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-09",
@@ -72,7 +200,23 @@
       "lon": 9.2694826,
       "name": "Stadtbäckerei Rahn, Alsfeld",
       "topic": "Salzekuchen",
-      "description": "Der Betrieb nennt Salzekuchen als eigene Spezialität."
+      "description": "Der Betrieb nennt Salzekuchen als eigene Spezialität.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#salzekuchen"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-10",
@@ -80,7 +224,23 @@
       "lon": 9.0359,
       "name": "Sellnrod",
       "topic": "Salzekuchen",
-      "description": "Schmierschelkuchen beim traditionellen Backhausfest."
+      "description": "Schmierschelkuchen beim traditionellen Backhausfest.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#salzekuchen"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-11",
@@ -88,7 +248,23 @@
       "lon": 9.1035,
       "name": "Kirtorf",
       "topic": "Salzekuchen",
-      "description": "Salzekuchen ist Teil des Kirmesauftakts."
+      "description": "Salzekuchen ist Teil des Kirmesauftakts.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#salzekuchen"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-12",
@@ -96,7 +272,23 @@
       "lon": 9.139,
       "name": "Ober-Gleen",
       "topic": "Salzekuchen",
-      "description": "Salzekuchen beim traditionellen Kirmesausklang."
+      "description": "Salzekuchen beim traditionellen Kirmesausklang.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#salzekuchen"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-13",
@@ -104,7 +296,23 @@
       "lon": 9.443,
       "name": "Angersbach",
       "topic": "Beutelches",
-      "description": "Beutelches mit Zwiebelsoße und Krautsalat auf der Kirmes-Speisekarte."
+      "description": "Beutelches mit Zwiebelsoße und Krautsalat auf der Kirmes-Speisekarte.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#beutelches"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-14",
@@ -112,7 +320,23 @@
       "lon": 9.0287,
       "name": "Flensungen",
       "topic": "Salzekuchen",
-      "description": "Schmierschelkuchen beim Backhausfest."
+      "description": "Schmierschelkuchen beim Backhausfest.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#salzekuchen"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-15",
@@ -120,7 +344,23 @@
       "lon": 9.074,
       "name": "Bernsfeld",
       "topic": "Salzekuchen",
-      "description": "Schmierschelkuchen aus dem örtlichen Backhaus."
+      "description": "Schmierschelkuchen aus dem örtlichen Backhaus.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#salzekuchen"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-16",
@@ -128,7 +368,23 @@
       "lon": 9.188,
       "name": "Köddingen",
       "topic": "Salzekuchen",
-      "description": "Salzekuchen aus den beiden bestehenden örtlichen Backhäusern."
+      "description": "Salzekuchen aus den beiden bestehenden örtlichen Backhäusern.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#salzekuchen"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-17",
@@ -136,7 +392,23 @@
       "lon": 9.19,
       "name": "Ohmes",
       "topic": "Salzekuchen",
-      "description": "Salzekuchen direkt aus dem Backhaus."
+      "description": "Salzekuchen direkt aus dem Backhaus.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#salzekuchen"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-18",
@@ -144,7 +416,23 @@
       "lon": 9.058,
       "name": "Burg-Gemünden",
       "topic": "Salzekuchen",
-      "description": "Salzekuchenbacken nach überlieferter Rezeptur."
+      "description": "Salzekuchenbacken nach überlieferter Rezeptur.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#salzekuchen"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-19",
@@ -152,7 +440,23 @@
       "lon": 9.008,
       "name": "Deckenbach",
       "topic": "Salzekuchen",
-      "description": "Salzekuchenessen am Backhaus."
+      "description": "Salzekuchenessen am Backhaus.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#salzekuchen"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-20",
@@ -160,7 +464,23 @@
       "lon": 9.432,
       "name": "Landenhausen",
       "topic": "Salzekuchen",
-      "description": "„Landenhäuser Salzekuchen“ als örtliche Spezialität."
+      "description": "„Landenhäuser Salzekuchen“ als örtliche Spezialität.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#salzekuchen"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-21",
@@ -168,7 +488,23 @@
       "lon": 9.30105,
       "name": "Feuerwehr Dirlammen",
       "topic": "Beutelches",
-      "description": "Beutelches mit Zwiebelsoße, Solper, Blutwurst oder vegetarisch."
+      "description": "Beutelches mit Zwiebelsoße, Solper, Blutwurst oder vegetarisch.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#beutelches"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-22",
@@ -176,7 +512,23 @@
       "lon": 9.23017,
       "name": "Ober-Breidenbach",
       "topic": "Salzekuchen",
-      "description": "Frischer Salzekuchen aus dem Backhaus."
+      "description": "Frischer Salzekuchen aus dem Backhaus.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#salzekuchen"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-23",
@@ -184,7 +536,23 @@
       "lon": 9.19532,
       "name": "Landfrauen Wolferborn",
       "topic": "Beutelches",
-      "description": "Beulches-Tradition und Wissensweitergabe beim Kartoffelfest."
+      "description": "Beulches-Tradition und Wissensweitergabe beim Kartoffelfest.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#beutelches"
+      },
+      "research_question": null,
+      "calendar": null
     },
     {
       "id": "food-24",
@@ -192,7 +560,31 @@
       "lon": 9.04866,
       "name": "Lardenbach/Klein-Eichen",
       "topic": "Salzekuchen",
-      "description": "Historischer Rezeptbeleg für Schmierschelkuchen („Hessische Pizza“)."
+      "description": "Historischer Rezeptbeleg für Schmierschelkuchen („Hessische Pizza“).",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Quelle im Forschungsarchiv dokumentiert",
+        "url": null,
+        "proof": null
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr",
+        "visual": "visuals.html#salzekuchen"
+      },
+      "research_question": null,
+      "calendar": null
     }
-  ]
+  ],
+  "schema_version": 2,
+  "status_legend": {
+    "verified": "🟢 belegt – belastbare schriftliche/Bildquelle",
+    "oral": "🟡 Zeitzeugenwissen – oral/persönlich überliefert",
+    "living": "🔵 aktuelle lebendige Tradition",
+    "endangered": "🔴 gefährdete Spur",
+    "question": "⚪ Forschungsfrage"
+  }
 }
