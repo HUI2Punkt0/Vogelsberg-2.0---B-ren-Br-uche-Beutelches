@@ -1,6 +1,6 @@
 {
   "version": "2026-09-24",
-  "note": "Zentrale Datenquelle für freigeschaltete Themenfilter. Konkrete Quellen, Kalenderbezüge und Forschungsfragen werden nur eingetragen, wenn sie durch eine überprüfte Quelle gestützt oder ausdrücklich als Forschungsfrage formuliert sind.",
+  "note": "Zentrale Datenquelle für freigeschaltete Themenfilter. Alle 24 derzeitigen Punkte besitzen nun eine konkrete Einzelquelle. Belegumfang bleibt eng an der jeweiligen Quelle; weitergehende Rezept-, Alters- oder Herkunftsfragen werden als Forschungsfragen geführt.",
   "items": [
     {
       "id": "food-01",
@@ -148,9 +148,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Lautertal Mitteilungsblatt – Backgemeinschaft Dirlammen, Salzekuchenessen 2025",
+        "url": "https://ol.wittich.de/titel/1102/ausgabe/43/2025/rubrik/alle/seite/0/sortiert/inhaltsverzeichnis",
+        "proof": "Die Salzekuchen-Gemeinschaft kündigt für den 1. November 2025 erneut traditionellen Salzekuchen aus dem Dirlammer Backhaus an. Entsprechende öffentliche Belege liegen auch für 2022, 2023 und 2024 vor."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -158,8 +158,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#salzekuchen"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Wie weit reicht die Dirlammer Salzekuchen-Tradition vor die dokumentierte Wiederaufnahme 2022 zurück?",
+      "calendar": {
+        "type": "annual",
+        "label": "Salzekuchenessen · Anfang November"
+      }
     },
     {
       "id": "food-07",
@@ -388,9 +391,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Gießener Allgemeine – Schmierschelkuchen und Pizza aus dem Backhaus (18.06.2019)",
+        "url": "https://www.giessener-allgemeine.de/vogelsbergkreis/schmierschelkuchen-pizza-backhaus-12534163.html",
+        "proof": "Beim Backhausfest der Freiwilligen Feuerwehr Bernsfeld wurden Schmierschelkuchen und Pizza gebacken; der Teig kam vom Bauernhof Loth und wurde zum Backhaus transportiert."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -398,8 +401,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#salzekuchen"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Welche Aufgaben verteilen sich beim Bernsfelder Backhausfest auf Feuerwehr, Familien und örtliche Betriebe?",
+      "calendar": {
+        "type": "recurring",
+        "label": "Backhausfest · öffentlich 2017 und 2019 belegt"
+      }
     },
     {
       "id": "food-16",
@@ -517,9 +523,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Wartenberg-iNFO – 1. Landenhäuser kulinarische Weinwanderung (07.09.2019)",
+        "url": "https://www.wartenberg-info.de/2019/09/07/weinfest/",
+        "proof": "Bei der ersten kulinarischen Weinwanderung 2019 wurde an Station 1 ausdrücklich „Landenhäuser Salzekuchen“ angeboten."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -527,8 +533,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#salzekuchen"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Was macht den ausdrücklich so genannten „Landenhäuser Salzekuchen“ örtlich besonders?",
+      "calendar": {
+        "type": "historical",
+        "label": "7. September 2019 · kulinarische Weinwanderung"
+      }
     },
     {
       "id": "food-21",
@@ -541,9 +550,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Gemeinde Lautertal / Lauterbacher Anzeiger – Einsatzstunden verdoppelt (2026)",
+        "url": "https://www.lautertal-vogelsberg.de/aktuelles/presse/presse-details/einsatzstunden-verdoppelt.html",
+        "proof": "Der Jahresbericht der Feuerwehr Dirlammen nennt das Beutelches-Essen als Höhepunkt; für 2026 ist erneut ein Beutelches-Essen am 14. November angekündigt."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -551,8 +560,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#beutelches"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Seit wann veranstaltet die Feuerwehr Dirlammen ihr Beutelches-Essen und welche Rezeptvarianten gehören dazu?",
+      "calendar": {
+        "type": "annual",
+        "label": "Beutelches-Essen · 14. November 2026 angekündigt"
+      }
     },
     {
       "id": "food-22",
