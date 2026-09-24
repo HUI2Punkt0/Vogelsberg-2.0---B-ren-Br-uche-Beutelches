@@ -974,7 +974,7 @@
       "lon": 9.5786,
       "name": "Queck",
       "topic": "Erbsenbär",
-      "description": "In Queck zieht am 27. Dezember der Erbesbär mit Gefolge durchs Dorf. Eine örtliche Besonderheit ist das „Blenge Gillerchen“ mit Gespannführer.",
+      "description": "In Queck zieht am 27. Dezember der Erbesbär mit Gefolge durchs Dorf. Die örtlichen „Blenge Gillerchen“ sind als menschliche Pferde gestaltet: zwei Jugendliche tragen mit Leinentuch bedeckte Siebe vor Bauch und Rücken und ziehen einen kleinen Wagen.",
       "status": [
         "verified",
         "living"
@@ -982,14 +982,14 @@
       "source": {
         "label": "Fuldaer Zeitung – Erbesbär macht Queck nach Schlitzerländer Tradition unsicher (28.12.2019)",
         "url": "https://www.fuldaerzeitung.de/vogelsberg/erbesbaers-macht-queck-nach-schlitzerlaender-tradition-unsicher-13663031.html",
-        "proof": "Der Bericht dokumentiert 2019 zwanzig junge Teilnehmer, Roggenstroh für den Bären sowie die Quecker Figuren Erbesbär mit Führer, Paare „Mann und Frau“ und das „Blenge Gillerchen“ mit Gespannführer."
+        "proof": "Der Bericht dokumentiert 2019 Erbesbär mit Führer, Paare „Mann und Frau“ sowie die „Blenge Gillerchen“: zwei Jugendliche als blinde Pferde mit Sieben vor Bauch und Rücken, weißem Leinentuch, Schweif und teils hölzernem Pferdekopf; sie ziehen einen kleinen Wagen."
       },
       "links": {
         "archive": "quellenarchiv.html",
         "timeline": "index.html#zeitmaschine",
         "year": "index.html#vogelsberger-jahr"
       },
-      "research_question": "Was genau ist das „Blenge Gillerchen“, wie wird die Figur dargestellt und wie weit lässt sie sich in Queck zurückverfolgen?",
+      "research_question": "Wie alt ist die Quecker Figur der „Blenge Gillerchen“, und finden wir ältere Fotos oder Beschreibungen mit Pferdekopf, Sieben und Wagen?",
       "calendar": {
         "type": "annual",
         "label": "27. Dezember"
@@ -1001,25 +1001,60 @@
       "lon": 9.61,
       "name": "Willofs",
       "topic": "Erbsenbär",
-      "description": "Willofs wird in der Berichterstattung aus dem Schlitzerland als weiterer Ort genannt, in dem der Erbesbär-Brauch ausgeübt wird.",
+      "description": "Seit Jahrzehnten ziehen junge Männer am „dritten Christtag“ mit dem Erbesbär durch Willofs. Zur Gruppe gehören auch „Schwoarze“, Eierfrau und Bärenführer.",
       "status": [
-        "verified"
+        "verified",
+        "living"
       ],
       "source": {
-        "label": "Osthessen News – Der Erbesbär in Ützhausen ist los (2016)",
-        "url": "https://osthessen-news.de/n11548030/der-erbesbaer-in-uetzhausen-ist-los-dorfjugend-wahrt-lange-tradition.html",
-        "proof": "Der Bericht nennt neben Ützhausen ausdrücklich Willofs, Hutzdorf, Queck und Üllershausen als Orte, in denen der Brauch ebenfalls ausgeübt wird. Für Willofs fehlt uns bislang ein eigener aktueller Detailbericht."
+        "label": "Fuldaer Zeitung – Erbesbär zog durch Willofs und Nieder-Stoll (30.12.2019)",
+        "url": "https://www.fuldaerzeitung.de/vogelsberg/erbesbaer-durch-kleinen-schlitzerlaender-doerfer-willofs-nieder-stoll-13662878.html",
+        "proof": "Der Bericht dokumentiert den Willofser Umzug 2019, den dritten Christtag als Termin, die Rollen Schwoarze, Eierfrau und Bärenführer sowie die örtliche Regel, möglichst den jüngsten im Vorjahr konfirmierten Jungen als Bären auszuwählen."
       },
       "links": {
         "archive": "quellenarchiv.html",
         "timeline": "index.html#zeitmaschine",
         "year": "index.html#vogelsberger-jahr"
       },
-      "research_question": "Wie sieht die Willofser Variante des Erbesbären konkret aus, wann findet sie statt und gibt es eigene Fotos, Berichte oder Zeitzeugen?",
+      "research_question": "Wie weit lässt sich die Willofser Tradition schriftlich zurückverfolgen, und welche Aufgaben haben „Schwoarze“ und Eierfrau genau?",
       "calendar": {
-        "type": "unknown",
-        "label": "Termin für Willofs noch zu belegen"
+        "type": "annual",
+        "label": "27. Dezember · dritter Christtag"
       }
+    },
+    {
+      "id": "custom-14",
+      "lat": 50.695,
+      "lon": 9.6,
+      "name": "Nieder-Stoll",
+      "topic": "Erbsenbär",
+      "description": "In Nieder-Stoll war der Erbesbär-Brauch rund 30 Jahre eingeschlafen und wurde vor 2019 wiederbelebt; 2019 fand er zum dritten Mal in Folge statt.",
+      "status": [
+        "verified",
+        "living"
+      ],
+      "source": {
+        "label": "Fuldaer Zeitung – Erbesbär zog durch Willofs und Nieder-Stoll (30.12.2019)",
+        "url": "https://www.fuldaerzeitung.de/vogelsberg/erbesbaer-durch-kleinen-schlitzerlaender-doerfer-willofs-nieder-stoll-13662878.html",
+        "proof": "Der Bericht dokumentiert den Nieder-Stoller Erbesbären 2019 und bezeichnet dies nach etwa 30-jähriger Unterbrechung als drittes Jahr in Folge."
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr"
+      },
+      "research_question": "Wann genau endete die ältere Nieder-Stoller Tradition und wer belebte sie 2017 wieder?",
+      "calendar": {
+        "type": "annual",
+        "label": "27. Dezember · Wiederbelebung seit 2017 belegt"
+      },
+      "timeline": [
+        {
+          "year": 2017,
+          "label": "Wiederbelebung des Erbesbär-Brauchs in Nieder-Stoll, aus der Angabe „2019 im dritten Jahr in Folge“ erschlossen",
+          "source_status": "aus datiertem Bericht erschlossen – direkten 2017-Beleg noch suchen"
+        }
+      ]
     }
   ],
   "schema_version": 2,
