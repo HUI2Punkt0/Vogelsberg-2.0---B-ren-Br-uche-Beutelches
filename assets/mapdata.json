@@ -40,9 +40,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Stadt Lauterbach – Führung Schloss Eisenbach",
+        "url": "https://www.lauterbach-hessen.de/tourismus/entdecken/stadtfuehrungen/fuehrung-schloss-eisenbach.html",
+        "proof": "Die Stadt Lauterbach dokumentiert die herbstliche Schlossführung mit anschließendem Beutelches; 2026 findet sie jeden Donnerstag im Oktober statt, auch eine vegetarische Variante wird genannt."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -50,8 +50,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#beutelches"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Seit wann gehört Beutelches zum Abschluss der Eisenbacher Schlossführungen – und wann kam die vegetarische Variante hinzu?",
+      "calendar": {
+        "type": "annual",
+        "label": "jeden Donnerstag im Oktober"
+      }
     },
     {
       "id": "food-03",
@@ -118,9 +121,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Landgasthaus Zur Birke – Regionale Spezialitäten",
+        "url": "https://zur-birke.com/gaststaette-restaurant/regionale-spezialitaten/",
+        "proof": "Das Landgasthaus beschreibt Beutelches ausdrücklich als regionale Spezialität und früheres „Arme-Leute-Essen“; angeboten wird es bei Kartoffel-Schlemmer-Buffets."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -128,8 +131,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#beutelches"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Worauf stützt sich die Bezeichnung als früheres „Arme-Leute-Essen“ – und lässt sie sich mit älteren Quellen belegen?",
+      "calendar": {
+        "type": "seasonal",
+        "label": "Kartoffel-Schlemmer-Buffets · Herbst"
+      }
     },
     {
       "id": "food-06",
@@ -166,9 +172,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Gasthaus Tor zum Vogelsberg – Vogelsberger Beulches",
+        "url": "https://www.gasthof-vogelsberg.de/speisekarte/vogelsberger-beulches-saison-termine/",
+        "proof": "Das Gasthaus beschreibt hausgemachtes Vogelsberger Beulches aus geriebenen Kartoffeln, Lauch und gepökeltem Schweinefleisch im Leinensäckchen; angeboten wird es saisonal von September bis April."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -176,8 +182,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#beutelches"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Warum wird Beulches hier gerade in der kälteren Jahreshälfte angeboten – Tradition, Nachfrage oder Küchenpraxis?",
+      "calendar": {
+        "type": "seasonal",
+        "label": "September bis April · zweiter Dienstag im Monat und weitere Termine"
+      }
     },
     {
       "id": "food-08",
@@ -319,9 +328,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Wartenberg-iNFO – Kirmes Angersbach 2019",
+        "url": "https://www.wartenberg-info.de/kultur/",
+        "proof": "Die veröffentlichte Kirmes-Speisekarte 2019 nennt für Freitag ausdrücklich Beutelches mit Zwiebelsoße und Krautsalat."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -329,8 +338,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#beutelches"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Seit wann gehört Beutelches zur Angersbacher Kirmes – und wird es dort heute noch angeboten?",
+      "calendar": {
+        "type": "historical",
+        "label": "Kirmes · Freitag, Oktober 2019"
+      }
     },
     {
       "id": "food-14",
