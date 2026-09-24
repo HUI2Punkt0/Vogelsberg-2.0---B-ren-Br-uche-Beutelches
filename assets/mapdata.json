@@ -1,6 +1,6 @@
 {
   "version": "2026-09-24",
-  "note": "Zentrale Datenquelle für freigeschaltete Themenfilter. Alle 24 derzeitigen Punkte besitzen nun eine konkrete Einzelquelle. Belegumfang bleibt eng an der jeweiligen Quelle; weitergehende Rezept-, Alters- oder Herkunftsfragen werden als Forschungsfragen geführt.",
+  "note": "Zentrale Datenquelle für freigeschaltete Themenfilter. Speisen- und Brauchspuren werden nach demselben Schema geführt: Ort, Status, konkrete Quelle, Belegumfang, Kalenderbezug und offene Forschungsfrage.",
   "items": [
     {
       "id": "food-01",
@@ -665,6 +665,167 @@
       "calendar": {
         "type": "historical",
         "label": "26. Juli 1995 – hr4-Sommertour"
+      }
+    },
+    {
+      "id": "custom-01",
+      "lat": 50.562,
+      "lon": 9.345,
+      "name": "Herbstein",
+      "topic": "Strohbär",
+      "description": "Der Herbsteiner Strohbär gehört zur Foaselt; ein eigenes Strohbärenmuseum dokumentiert die Tradition.",
+      "status": [
+        "verified",
+        "living"
+      ],
+      "source": {
+        "label": "Oberhessische Zeitung – Erstes Strohbären-Museum Deutschlands eröffnet im Vogelsbergkreis",
+        "url": "https://www.oberhessische-zeitung.de/vogelsbergkreis/herbstein/erstes-strohbaeren-museum-deutschlands-eroeffnet-im-vogelsbergkreis-94481585.html",
+        "proof": "Bericht über das 2026 eröffnete Strohbärenmuseum und die in Herbstein gepflegte Strohbären-Tradition."
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr"
+      },
+      "research_question": "Wie haben sich Figur, Herstellung und Bedeutung des Herbsteiner Strohbären verändert?",
+      "calendar": {
+        "type": "annual",
+        "label": "Foaselt · Fastnachtszeit"
+      }
+    },
+    {
+      "id": "custom-02",
+      "lat": 50.623,
+      "lon": 9.329,
+      "name": "Eichelhain",
+      "topic": "Schimmel",
+      "description": "In Eichelhain zieht zur Fastnacht der „Schimmel“ durch das Dorf – eine lokal benannte Brauchfigur.",
+      "status": [
+        "verified",
+        "living"
+      ],
+      "source": {
+        "label": "Gemeinde Lautertal – Der Schimmel zieht durchs Dorf",
+        "url": "https://www.lautertal-vogelsberg.de/aktuelles/presse/presse-details/der-schimmel-zieht-durchs-dorf.html",
+        "proof": "Die Gemeinde dokumentiert den Fastnachtsbrauch und die Figur des Eichelhainer Schimmels."
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr"
+      },
+      "research_question": "Wie alt ist der Eichelhainer Schimmel und wie hat sich seine Ausgestaltung verändert?",
+      "calendar": {
+        "type": "annual",
+        "label": "Fastnachtszeit"
+      }
+    },
+    {
+      "id": "custom-03",
+      "lat": 50.642,
+      "lon": 9.464,
+      "name": "Wernges",
+      "topic": "Pfädchen",
+      "description": "In Wernges ist das „Pädche“ als Weg zwischen den Häusern heimlicher Liebespaare beschrieben.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Wernges.de – Maibaum oder Strohpuppe",
+        "url": "https://www.wernges.de/maibaum-oder-strohpuppe.html",
+        "proof": "Die Ortsseite erklärt das Pädche/Pfädchen, seine Verbindung zu heimlichen Liebespaaren sowie den Termin um den 1. Mai; zeitweise wurde der Brauch auf Pfingsten verlegt."
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr"
+      },
+      "research_question": "Wo führen die Pfädchen hin – und warum änderte sich in Wernges zeitweise der Termin?",
+      "calendar": {
+        "type": "annual",
+        "label": "Walpurgisnacht / 1. Mai; zeitweise Pfingsten"
+      }
+    },
+    {
+      "id": "custom-04",
+      "lat": 50.519,
+      "lon": 9.342,
+      "name": "Busenborn · Bilstein",
+      "topic": "Schiefer Maie",
+      "description": "Unverheiratete junge Männer stellen zu Pfingsten auf dem Bilstein einen bewusst schiefen Maibaum auf.",
+      "status": [
+        "verified",
+        "living"
+      ],
+      "source": {
+        "label": "DGGV – Der Bilstein",
+        "url": "https://www.dggv.de/gotm/der-bilstein/",
+        "proof": "Die Deutsche Geologische Gesellschaft beschreibt den Pfingstbrauch des bewusst schief aufgestellten Maibaums auf dem Bilstein."
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr"
+      },
+      "research_question": "Seit wann wird der Maie bewusst schief aufgestellt – und welche Bedeutung geben die Beteiligten dem heute?",
+      "calendar": {
+        "type": "annual",
+        "label": "Pfingsten"
+      }
+    },
+    {
+      "id": "custom-05",
+      "lat": 50.634,
+      "lon": 9.397,
+      "name": "Frischborn",
+      "topic": "Hutzelfeuer",
+      "description": "Das Hutzelfeuer wird in Frischborn als hessische Tradition zum Winteraustreiben dokumentiert.",
+      "status": [
+        "verified",
+        "living"
+      ],
+      "source": {
+        "label": "Hessenmagazin – Hessische Tradition Hutzelfeuer",
+        "url": "https://www.hessenmagazin.de/land-leben/10560-hessische-tradition-hutzelfeuer.html",
+        "proof": "Bericht über das Hutzelfeuer in Frischborn und seine Durchführung als lokale Tradition."
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr"
+      },
+      "research_question": "Welche Teile des heutigen Frischborner Hutzelfeuers sind älter belegt und welche haben sich verändert?",
+      "calendar": {
+        "type": "annual",
+        "label": "Hutzelsonntag · Ende der Fastnachtszeit"
+      }
+    },
+    {
+      "id": "custom-06",
+      "lat": 50.674,
+      "lon": 9.201,
+      "name": "Schadenbach",
+      "topic": "Strohbär",
+      "description": "Schadenbach gehört zu den Vogelsberger Orten, in denen Strohbären zur Fastnacht durch den Ort ziehen.",
+      "status": [
+        "verified",
+        "living"
+      ],
+      "source": {
+        "label": "Gießener Allgemeine – Faschings-Rekord im Vogelsberg",
+        "url": "https://www.giessener-allgemeine.de/vogelsbergkreis/faschings-rekord-vogelsberg-nirgendwo-hessen-gibt-mehr-strohbaeren-12153285.html",
+        "proof": "Der Bericht dokumentiert Schadenbach als einen Ort mit Strohbärenbrauch im Vogelsberg."
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr"
+      },
+      "research_question": "Wie unterscheidet sich der Schadenbacher Strohbär von den Figuren in anderen Vogelsbergorten?",
+      "calendar": {
+        "type": "annual",
+        "label": "Fastnachtszeit"
       }
     }
   ],
