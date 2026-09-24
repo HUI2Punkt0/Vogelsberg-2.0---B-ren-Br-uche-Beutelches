@@ -827,6 +827,112 @@
         "type": "annual",
         "label": "Fastnachtszeit"
       }
+    },
+    {
+      "id": "custom-07",
+      "lat": 50.675,
+      "lon": 9.565,
+      "name": "Hutzdorf",
+      "topic": "Erbsenbär",
+      "description": "Am sogenannten dritten Weihnachtstag zieht die Dorfjugend mit dem Erbsenbär, örtlich auch „Erwese Bär“, durch Hutzdorf.",
+      "status": [
+        "verified",
+        "living"
+      ],
+      "source": {
+        "label": "Osthessen News – Hutzdorfer Jugend zieht mit dem Erbsenbär durchs Dorf (2011)",
+        "url": "https://osthessen-news.de/n1207820/schlitz-b-hutzdorfer-jugend-zieht-mit-dem-erbsenb%C3%A4r-durchs-dorf-brauch-fortgesetzt-b.html",
+        "proof": "Der Bericht dokumentiert den Hutzdorfer Umzug 2011 und zitiert zusätzlich einen 1935 verfassten Bericht, in dem der „Erwese Bär“ nach Weihnachten bereits erwähnt wird."
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr"
+      },
+      "research_question": "Was steht im vollständigen Bericht von 1935 über den Hutzdorfer „Erwese Bär“ und lässt sich die Tradition noch weiter zurückverfolgen?",
+      "calendar": {
+        "type": "annual",
+        "label": "27. Dezember / dritter Weihnachtstag"
+      }
+    },
+    {
+      "id": "custom-08",
+      "lat": 50.69,
+      "lon": 9.57,
+      "name": "Üllershausen",
+      "topic": "Erbsenbär",
+      "description": "In Üllershausen zieht der Erbesbär am 27. Dezember von Haus zu Haus; die örtliche Wickeltechnik arbeitet mit rund 200 Strohbündeln an einem Vogelnetz.",
+      "status": [
+        "verified",
+        "living"
+      ],
+      "source": {
+        "label": "Fuldaer Zeitung – Erbesbär zieht durch Üllershausen (2022)",
+        "url": "https://www.fuldaerzeitung.de/vogelsberg/vogelsberg-erbesbaer-zieht-mit-schnaps-durch-uellershausen-tradition-winter-vertreiben-92001529.html",
+        "proof": "Der Bericht von 2022 beschreibt den jährlichen Umzug am 27. Dezember, eine kurze Unterbrechung in den 1960er Jahren und die örtliche Wickeltechnik."
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr"
+      },
+      "research_question": "Welche Quellen können die im Bericht genannte Wiederaufnahme nach der Unterbrechung der 1960er Jahre genauer datieren?",
+      "calendar": {
+        "type": "annual",
+        "label": "27. Dezember"
+      }
+    },
+    {
+      "id": "custom-09",
+      "lat": 50.65,
+      "lon": 9.17,
+      "name": "Stumpertenrod",
+      "topic": "Strohbär",
+      "description": "Der Jugendclub Stumpertenrod wickelt zur Fastnachtszeit einen Strohbären und zieht damit durch das Dorf.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Osthessen News – Strohbär in Stumpertenrod (2008)",
+        "url": "https://osthessen-news.de/n1146057/vogelsberg-kinderfasching-in-feldkr-cken-oberseibertenrod---strohb-r-in-stumpertenrod.html",
+        "proof": "Der Bericht von 2008 dokumentiert Wickeln, Umzug und das Sammeln von Eiern, Speck, Wurst und Geld durch den Jugendclub Stumpertenrod."
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr"
+      },
+      "research_question": "Wird der Strohbärenbrauch in Stumpertenrod heute noch ausgeübt, und wie weit lässt er sich schriftlich zurückverfolgen?",
+      "calendar": {
+        "type": "historical",
+        "label": "Fastnachtszeit · 2008 belegt"
+      }
+    },
+    {
+      "id": "custom-10",
+      "lat": 50.674,
+      "lon": 9.565,
+      "name": "Hutzdorf",
+      "topic": "Erbsenbär · historische Spur",
+      "description": "Eine veröffentlichte Rückschau zitiert einen Bericht von 1935, in dem der „Erwese Bär“ nach Weihnachten als damals lebendige Tradition genannt wird.",
+      "status": [
+        "verified"
+      ],
+      "source": {
+        "label": "Osthessen News – Brauch fortgesetzt (2011), mit Zitat aus Bericht von 1935",
+        "url": "https://osthessen-news.de/n1207820/schlitz-b-hutzdorfer-jugend-zieht-mit-dem-erbsenb%C3%A4r-durchs-dorf-brauch-fortgesetzt-b.html",
+        "proof": "Sekundärbeleg: Der Artikel zitiert einen 1935 verfassten Bericht. Die Originalquelle selbst muss noch eingesehen werden."
+      },
+      "links": {
+        "archive": "quellenarchiv.html",
+        "timeline": "index.html#zeitmaschine",
+        "year": "index.html#vogelsberger-jahr"
+      },
+      "research_question": "Wo befindet sich die Originalfassung des 1935 verfassten Berichts, und welchen genauen räumlichen Bezug hatte dessen Aussage?",
+      "calendar": {
+        "type": "historical",
+        "label": "1935 · Sekundärzitat"
+      }
     }
   ],
   "schema_version": 2,
