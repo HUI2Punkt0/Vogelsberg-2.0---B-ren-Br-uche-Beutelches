@@ -1,6 +1,6 @@
 {
   "version": "2026-09-24",
-  "note": "Zentrale Datenquelle für freigeschaltete Themenfilter. Status 'verified' bedeutet hier: Der Kartenpunkt stammt aus dem bereits geprüften Kartenbestand. Einzelquelle, Belegumfang, Kalenderbezug und Forschungsfrage werden nur ergänzt, wenn sie konkret dokumentiert sind; leere Felder werden nicht erfunden.",
+  "note": "Zentrale Datenquelle für freigeschaltete Themenfilter. Konkrete Quellen, Kalenderbezüge und Forschungsfragen werden nur eingetragen, wenn sie durch eine überprüfte Quelle gestützt oder ausdrücklich als Forschungsfrage formuliert sind.",
   "items": [
     {
       "id": "food-01",
@@ -13,9 +13,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Obst- und Gartenbauverein Eifa – Backen",
+        "url": "https://www.backhaus-eifa.de/",
+        "proof": "Seit Mai 2003 wird im Backhaus alle vierzehn Tage donnerstags Salzekuchen gebacken und verkauft."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -23,8 +23,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#salzekuchen"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Wie hat sich das regelmäßige Backen seit 2003 verändert – und wer gibt das Wissen heute weiter?",
+      "calendar": {
+        "type": "recurring",
+        "label": "14-tägig donnerstags"
+      }
     },
     {
       "id": "food-02",
@@ -229,9 +232,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Gießener Allgemeine – Jede Menge Schmierschelkuchen (31.08.2023)",
+        "url": "https://www.giessener-allgemeine.de/vogelsbergkreis/muecke-ort848786/jede-menge-schmierschelkuchen-92493371.html",
+        "proof": "Traditionelles Backhausfest in Sellnrod; zwei Backhäuser werden angeheizt und Schmierschelkuchen gebacken."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -239,8 +242,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#salzekuchen"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Wie wird das Wissen zwischen den Generationen der beiden Backhaus-Teams weitergegeben?",
+      "calendar": {
+        "type": "seasonal",
+        "label": "Backhausfest Ende August"
+      }
     },
     {
       "id": "food-11",
@@ -253,9 +259,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Gießener Allgemeine – 25 Landfrauen backen über 60 Bleche Salzekuchen (23.07.2026)",
+        "url": "https://www.giessener-allgemeine.de/vogelsbergkreis/kirtorf-ort848785/25-landfrauen-backen-ueber-60-bleche-salzekuchen-fuer-die-kirmes-94410478.html",
+        "proof": "Salzekuchenessen eröffnet die Kirtorfer Kirmes; Ursprung dieser Kirmestradition wird in die 1970er Jahre datiert."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -263,8 +269,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#salzekuchen"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Wie wurde aus dem Backen in Privathaushalten die heutige gemeinschaftliche Produktion der Landfrauen?",
+      "calendar": {
+        "type": "annual",
+        "label": "Kirmesauftakt im Juli"
+      }
     },
     {
       "id": "food-12",
@@ -277,9 +286,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Oberhessische Zeitung – Große Vorfreude auf den Kirmesstart",
+        "url": "https://www.oberhessische-zeitung.de/vogelsbergkreis/kirtorf/grosse-vorfreude-auf-den-kirmesstart-93254947.html",
+        "proof": "Beim traditionellen Kirmesausklang am Montag verkaufen die Landfrauen Salzekuchen."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -287,8 +296,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#salzekuchen"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Seit wann gehört der Salzekuchen zum Kirmesmontag in Ober-Gleen?",
+      "calendar": {
+        "type": "annual",
+        "label": "Kirmesausklang im Spätsommer"
+      }
     },
     {
       "id": "food-13",
@@ -325,9 +337,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Gießener Allgemeine – Hand in Hand für leckeren Schmaus (12.10.2023)",
+        "url": "https://www.giessener-allgemeine.de/vogelsbergkreis/muecke-ort848786/hand-in-hand-fuer-leckeren-schmaus-92574937.html",
+        "proof": "Die Feuerwehr veranstaltet im Herbst ein Schmierschelkuchenessen; gebacken wird im Backhaus."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -335,8 +347,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#salzekuchen"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Welche Arbeitsschritte und welches Wissen werden beim Flensunger Backen weitergegeben?",
+      "calendar": {
+        "type": "seasonal",
+        "label": "Schmierschelkuchenessen im Herbst"
+      }
     },
     {
       "id": "food-15",
@@ -373,9 +388,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Oberhessische Zeitung – Schon Anheizen ist Kunst für sich (06.10.2025)",
+        "url": "https://www.oberhessische-zeitung.de/vogelsbergkreis/feldatal/schon-anheizen-ist-kunst-fuer-sich-93969978.html",
+        "proof": "Der OGV Köddingen veranstaltet ein Backhausfest; gleichzeitig wird in den beiden bestehenden örtlichen Backhäusern gebacken."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -383,8 +398,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#salzekuchen"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Warum werden in Köddingen noch beide Backhäuser gleichzeitig genutzt?",
+      "calendar": {
+        "type": "seasonal",
+        "label": "Backhausfest im Herbst"
+      }
     },
     {
       "id": "food-17",
@@ -397,9 +415,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Gemeinde Antrifttal – Backhausfest in Ohmes (07.–08.09.2024)",
+        "url": "https://www.antrifttal.de/veranstaltungen/2571913/2024/09/07/backhausfest-in-ohmes.html",
+        "proof": "Der Kulturverein Ohmes lädt zum Backhausfest; am Samstag gibt es Salzekuchen aus dem Backhaus."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -407,8 +425,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#salzekuchen"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Wie lange gehört Salzekuchen bereits zum Ohmeser Backhausfest?",
+      "calendar": {
+        "type": "seasonal",
+        "label": "Backhausfest im September"
+      }
     },
     {
       "id": "food-18",
@@ -421,9 +442,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Ohmtal-Bote 17/2018 – Burgkameraden halten Tradition hoch",
+        "url": "https://www.gemuenden-felda.de/fileadmin/Mitteilungsblatt_Archiv/2018/KW_17_OhmtalBote_2018_Erscheinungsdatum_25.04.2018_Jahrgang_48.pdf",
+        "proof": "Die Burschenschaft Burgkameraden pflegt das Salzekuchenbacken nach überlieferter Rezeptur; 2018 wird der zweite Samstag im April als Backtermin beschrieben."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -431,8 +452,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#salzekuchen"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Wie alt ist die überlieferte Rezeptur der Burgkameraden tatsächlich?",
+      "calendar": {
+        "type": "annual",
+        "label": "traditioneller Backhaustermin im Frühjahr"
+      }
     },
     {
       "id": "food-19",
@@ -445,9 +469,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Ohmtal-Bote 43/2015 – Salzekuchenessen Deckenbach",
+        "url": "https://www.gemuenden-felda.de/fileadmin/_migrated/content_uploads/1079_Ohmtal_Bote_43_15__Ansicht.pdf",
+        "proof": "2015 lud die Burschen- und Mädchenschaft zum dritten Salzekuchenessen am Backhaus ein."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -455,7 +479,7 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#salzekuchen"
       },
-      "research_question": null,
+      "research_question": "Wie entwickelte sich das Deckenbacher Salzekuchenessen seit seinen ersten Veranstaltungen?",
       "calendar": null
     },
     {
@@ -517,9 +541,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Stadt Romrod – Backhausfest Ober-Breidenbach 2026",
+        "url": "https://www.romrod.de/veranstaltungen/backhausfest-in-ober-breidenbach-salzekuchen-haxen-haehnchen-mehr/",
+        "proof": "Beim Backhausfest am 22.–23. August 2026 gibt es am Samstag frischen Salzekuchen aus dem Backhaus."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -527,8 +551,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#salzekuchen"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Welche Rezept- und Backtradition steckt hinter dem heutigen Backhausfest?",
+      "calendar": {
+        "type": "annual",
+        "label": "Backhausfest im August"
+      }
     },
     {
       "id": "food-23",
@@ -565,9 +592,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Klein-Eichen – Dorfarchiv 1995",
+        "url": "https://www.klein-eichen.de/archiv/1995/archiv1995.html",
+        "proof": "Bei der hr4-Sommertour am 26. Juli 1995 wurde ein örtliches Rezept für Schmierschelkuchen als „Hessische Pizza“ im Radio vorgestellt."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -575,8 +602,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#salzekuchen"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Welche Zutaten und Bezeichnungen des 1995 vorgestellten Rezepts finden sich heute noch wieder?",
+      "calendar": {
+        "type": "historical",
+        "label": "26. Juli 1995 – hr4-Sommertour"
+      }
     }
   ],
   "schema_version": 2,
