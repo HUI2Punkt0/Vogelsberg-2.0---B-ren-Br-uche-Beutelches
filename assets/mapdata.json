@@ -64,9 +64,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Vulkanregion Vogelsberg – Beulchesessen HoherodskopfKlause",
+        "url": "https://www.vogelsberg-touristik.de/detail/id%3D6a27ee04b7c25b0f7aeff5c6",
+        "proof": "Die HoherodskopfKlause bietet ihr traditionelles Beulches am ersten Wochenende bzw. ersten Samstag des Monats an; beschrieben werden Kartoffeln, Lauch, Solberfleisch, Gewürze und das Garen im Leinensäckchen."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -74,8 +74,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#beutelches"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Wie lange gehört das regelmäßige Beulchesessen bereits zur Gastronomie auf dem Hoherodskopf?",
+      "calendar": {
+        "type": "recurring",
+        "label": "monatlich · erstes Wochenende"
+      }
     },
     {
       "id": "food-04",
@@ -88,9 +91,9 @@
         "verified"
       ],
       "source": {
-        "label": "Quelle im Forschungsarchiv dokumentiert",
-        "url": null,
-        "proof": null
+        "label": "Landgasthaus Jägerhof Maar – Speis & Trank",
+        "url": "https://www.jaegerhof-maar.de/restaurant/speis-und-trank-im-restaurant/",
+        "proof": "Der Jägerhof beschreibt Vogelsberger Beutelches als ganzjährig angebotenen Klassiker und nennt Zubereitung im Leinensäckchen sowie Solperfleisch, Lauch und traditionelle Soßen."
       },
       "links": {
         "archive": "quellenarchiv.html",
@@ -98,8 +101,11 @@
         "year": "index.html#vogelsberger-jahr",
         "visual": "visuals.html#beutelches"
       },
-      "research_question": null,
-      "calendar": null
+      "research_question": "Was verändert sich, wenn ein früheres Haus- und Alltagsgericht dauerhaft in der Gastronomie angeboten wird?",
+      "calendar": {
+        "type": "continuous",
+        "label": "ganzjährig auf der Speisekarte"
+      }
     },
     {
       "id": "food-05",
