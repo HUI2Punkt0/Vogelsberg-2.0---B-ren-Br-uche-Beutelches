@@ -171,5 +171,16 @@
 <article class="card" id="hochzeitsrechen"><img loading="lazy" src="assets/schuelerarbeiten/tradition/hochzeitsrechen-vogelsberg.png" alt="Hochzeitsrechen im Vogelsberg"><div class="cap"><b>Hochzeitsrechen</b><span>Forschungsgrafik · historische Bezeichnung belegt, Funktion noch offen</span></div><div class="contextlinks"><a href="https://osthessen-news.de/n1235219/rebgeshain-meisterte-dolles-dorf---hr-mit-karneval-in-rio-begr-t--ulrichstein.html" target="_blank" rel="noopener">🔎 Senkler · Rebgeshain</a><a href="https://www.heuson-museum.de/index.php/de/handwerk-und-landwirtschaft/landwirtschaft" target="_blank" rel="noopener">🏛️ Heuson-Museum · um 1900</a></div></article>
 </section>
 </main>
-<footer style="padding:22px;text-align:center"><a href="impressum.html">Impressum & Datenschutz</a></footer></body>
+<footer style="padding:22px;text-align:center"><a href="impressum.html">Impressum & Datenschutz</a></footer><script>
+(function(){
+  function landExactly(){
+    if(!location.hash)return;
+    var id=decodeURIComponent(location.hash.slice(1)), el=document.getElementById(id);
+    if(!el)return;
+    requestAnimationFrame(function(){requestAnimationFrame(function(){el.scrollIntoView({block:'start'});});});
+  }
+  window.addEventListener('load',landExactly);
+  window.addEventListener('hashchange',landExactly);
+})();
+</script></body>
 </html>
