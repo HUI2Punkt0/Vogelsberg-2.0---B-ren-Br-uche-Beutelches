@@ -201,13 +201,18 @@
 </script><div id="visualLightbox" aria-hidden="true" role="dialog" aria-label="Grafik in Großansicht"><button class="lb-close" type="button" aria-label="Großansicht schließen">×</button><div class="lb-stage"><img alt=""></div></div>
 <script id="visual-lightbox-js">
 (function(){
- const box=document.getElementById('visualLightbox'), big=box.querySelector('img'), close=box.querySelector('.lb-close');
- function open(img){big.src=img.currentSrc||img.src;big.alt=img.alt||'Forschungsgrafik';box.classList.add('open');box.setAttribute('aria-hidden','false');document.documentElement.style.overflow='hidden';}
- function shut(){box.classList.remove('open');box.setAttribute('aria-hidden','true');big.removeAttribute('src');document.documentElement.style.overflow='';}
- document.addEventListener('click',function(e){var img=e.target.closest('main img');if(!img)return;e.preventDefault();e.stopPropagation();open(img);},true);
- document.querySelectorAll('main img').forEach(function(img){img.setAttribute('title','Antippen für Großansicht');img.style.cursor='zoom-in';});
- close.addEventListener('click',shut);box.addEventListener('click',function(e){if(e.target===box||e.target.classList.contains('lb-stage'))shut();});
- document.addEventListener('keydown',function(e){if(e.key==='Escape'&&box.classList.contains('open'))shut();});
+ var box=document.getElementById('visualLightbox'), big=box.querySelector('.lb-stage img'), close=box.querySelector('.lb-close');
+ function openVisual(img){big.src=img.currentSrc||img.src;big.alt=img.alt||'Forschungsgrafik';box.style.display='flex';box.classList.add('open');box.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';}
+ function closeVisual(){box.style.display='none';box.classList.remove('open');box.setAttribute('aria-hidden','true');document.body.style.overflow='';}
+ var imgs=document.querySelectorAll('main img');
+ for(var i=0;i<imgs.length;i++){(function(img){
+   img.style.cursor='zoom-in';img.setAttribute('title','Antippen für Großansicht');
+   img.onclick=function(ev){if(ev){ev.preventDefault();ev.stopPropagation();}openVisual(img);return false;};
+   img.ontouchend=function(ev){if(ev){ev.preventDefault();ev.stopPropagation();}openVisual(img);return false;};
+ })(imgs[i]);}
+ close.onclick=function(ev){ev.stopPropagation();closeVisual();};
+ box.onclick=function(ev){if(ev.target===box||ev.target.className==='lb-stage')closeVisual();};
+ document.onkeydown=function(ev){if(ev.key==='Escape')closeVisual();};
 })();
 </script></body>
 </html>
