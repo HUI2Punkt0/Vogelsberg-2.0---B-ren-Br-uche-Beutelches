@@ -1,5 +1,5 @@
 {
-  "version": "2026-09-24",
+  "version": "2026-09-29",
   "note": "Zentrale Datenquelle für freigeschaltete Themenfilter. Speisen- und Brauchspuren werden nach demselben Schema geführt: Ort, Status, konkrete Quelle, Belegumfang, Kalenderbezug und offene Forschungsfrage.",
   "items": [
     {
@@ -1059,8 +1059,8 @@
     },
     {
       "id": "custom-helpershain-arwesbaer",
-      "lat": 50.57,
-      "lon": 9.1,
+      "lat": 50.607124,
+      "lon": 9.2264,
       "name": "Helpershain · Arwesbär",
       "topic": "Erbsenbär",
       "description": "In Helpershain zieht zur Fastnacht der Arwesbär (Erbsenbär), eine mit Stroh eingewickelte Figur, mit Bärenführern durchs Dorf. Dabei werden Lebensmittel gesammelt und anschließend gemeinsam verzehrt; das Stroh wird am Ende verbrannt.",
