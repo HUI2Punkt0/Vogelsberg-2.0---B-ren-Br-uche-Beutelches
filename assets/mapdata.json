@@ -1056,6 +1056,28 @@
           "source_status": "aus datiertem Bericht erschlossen – direkten 2017-Beleg noch suchen"
         }
       ]
+    },
+    {
+      "id": "custom-helpershain-arwesbaer",
+      "lat": 50.57,
+      "lon": 9.1,
+      "name": "Helpershain · Arwesbär",
+      "topic": "Erbsenbär",
+      "description": "In Helpershain zieht zur Fastnacht der Arwesbär (Erbsenbär), eine mit Stroh eingewickelte Figur, mit Bärenführern durchs Dorf. Dabei werden Lebensmittel gesammelt und anschließend gemeinsam verzehrt; das Stroh wird am Ende verbrannt.",
+      "status": [
+        "verified",
+        "living"
+      ],
+      "source": {
+        "label": "JAK Helpershain – lokale Überlieferung zum Arwesbär",
+        "url": "https://www.helpershain.de/jak-helpershain",
+        "proof": "Die lokale Quelle belegt den Arwesbär/Erbsenbär in Helpershain und beschreibt Ablauf und gemeinschaftliches Verzehren der gesammelten Lebensmittel. Ein belastbares Erstjahr ist nicht belegt."
+      },
+      "links": {
+        "archive": "quellenarchiv.html#ergebnisse",
+        "visual": "visuals.html#erbsenbaer-strohbaer"
+      },
+      "research_question": "Wie weit lässt sich der Helpershainer Arwesbär mit datierten Quellen zurückverfolgen?"
     }
   ],
   "schema_version": 2,
