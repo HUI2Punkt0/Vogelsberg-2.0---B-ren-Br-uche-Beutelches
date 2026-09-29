@@ -204,7 +204,8 @@
  const box=document.getElementById('visualLightbox'), big=box.querySelector('img'), close=box.querySelector('.lb-close');
  function open(img){big.src=img.currentSrc||img.src;big.alt=img.alt||'Forschungsgrafik';box.classList.add('open');box.setAttribute('aria-hidden','false');document.documentElement.style.overflow='hidden';}
  function shut(){box.classList.remove('open');box.setAttribute('aria-hidden','true');big.removeAttribute('src');document.documentElement.style.overflow='';}
- document.querySelectorAll('main img').forEach(function(img){if(!img.closest('a') && !img.classList.contains('icon')){img.addEventListener('click',function(){open(img)});img.setAttribute('title','Antippen für Großansicht');}});
+ document.addEventListener('click',function(e){var img=e.target.closest('main img');if(!img)return;e.preventDefault();e.stopPropagation();open(img);},true);
+ document.querySelectorAll('main img').forEach(function(img){img.setAttribute('title','Antippen für Großansicht');img.style.cursor='zoom-in';});
  close.addEventListener('click',shut);box.addEventListener('click',function(e){if(e.target===box||e.target.classList.contains('lb-stage'))shut();});
  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&box.classList.contains('open'))shut();});
 })();
