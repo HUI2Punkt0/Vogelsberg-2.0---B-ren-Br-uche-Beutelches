@@ -1059,8 +1059,8 @@
     },
     {
       "id": "custom-helpershain-arwesbaer",
-      "lat": 50.607124,
-      "lon": 9.2264,
+      "lat": 50.60752,
+      "lon": 9.22587,
       "name": "Helpershain · Arwesbär",
       "topic": "Erbsenbär",
       "description": "In Helpershain zieht zur Fastnacht der Arwesbär (Erbsenbär), eine mit Stroh eingewickelte Figur, mit Bärenführern durchs Dorf. Dabei werden Lebensmittel gesammelt und anschließend gemeinsam verzehrt; das Stroh wird am Ende verbrannt.",
@@ -1078,6 +1078,32 @@
         "visual": "visuals.html#erbsenbaer-strohbaer"
       },
       "research_question": "Wie weit lässt sich der Helpershainer Arwesbär mit datierten Quellen zurückverfolgen?"
+    },
+    {
+      "id": "custom-ober-seibertenrod-strohbaer",
+      "lat": 50.590269,
+      "lon": 9.159168,
+      "name": "Ober-Seibertenrod",
+      "topic": "Strohbär",
+      "description": "In Ober-Seibertenrod wird zur Fastnachtszeit ein Strohbär Lage für Lage mit Stroh eingewickelt und von Haus zu Haus geführt. Gesammelt werden unter anderem Eier und Speck; daraus wird anschließend gemeinsam Eier-Brot zubereitet.",
+      "status": [
+        "verified",
+        "living"
+      ],
+      "source": {
+        "label": "Gießener Allgemeine – „Tapsig von Tür zu Tür“ (21.02.2023)",
+        "url": "https://www.giessener-allgemeine.de/vogelsbergkreis/ulrichstein-ort848787/tapsig-von-tuer-zu-tuer-92101851.html",
+        "proof": "Der Bericht von 2023 dokumentiert den Strohbären in Ober-Seibertenrod, das Sammeln von Eiern und Speck und die gemeinsame Zubereitung von Eier-Brot. Er spricht von einer seit gut 30 Jahren gepflegten alten Tradition; ein exaktes Erstjahr ist damit nicht belegt."
+      },
+      "links": {
+        "archive": "quellenarchiv.html#ergebnisse",
+        "visual": "visuals.html#erbsenbaer-strohbaer"
+      },
+      "research_question": "Wie weit lässt sich der Strohbärenbrauch in Ober-Seibertenrod mit datierten Quellen über die im Bericht genannten gut 30 Jahre hinaus zurückverfolgen?",
+      "calendar": {
+        "type": "annual",
+        "label": "Fastnachtszeit"
+      }
     }
   ],
   "schema_version": 2,
