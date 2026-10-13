@@ -1104,6 +1104,31 @@
         "type": "annual",
         "label": "Fastnachtszeit"
       }
+    },
+    {
+      "id": "food-brauerschwend-2026",
+      "lat": 50.6978,
+      "lon": 9.3252,
+      "name": "Brauerschwend – Salzekuchen beim Kirmes-Dämmerschoppen",
+      "topic": "Salzekuchen",
+      "description": "Die Burschenschaft Brauerschwend kündigt für den Kirmessamstag, 31. Oktober 2026, ab 16 Uhr einen Dämmerschoppen mit Wein und Salzekuchen an. Gegenwartsbeleg für Salzekuchen als Teil öffentlicher Kirmes- und Vereinskultur; die Veranstaltung liegt zum Zeitpunkt der Dokumentation noch in der Zukunft.",
+      "status": [
+        "living"
+      ],
+      "source": {
+        "label": "Burschenschaft Brauerschwend, Instagram @bsbrauerschwend, Veranstaltungsplakat (Screenshot, Oktober 2026)",
+        "url": "https://www.instagram.com/bsbrauerschwend/",
+        "proof": "Plakat: „Dämmerschoppen … am Kirmessamstag ab 16 Uhr“ am 31.10.; „u.a. mit Wein von der Geniesserzeit und Salzekuchen“. Belegt die Ankündigung, nicht die tatsächliche Durchführung."
+      },
+      "links": {
+        "archive": "quellenarchiv.html#brauerschwend-salzekuchen-2026",
+        "year": "zeitreise.html#vogelsberger-jahr"
+      },
+      "research_question": "Wird Salzekuchen bei der Brauerschwender Kirmes regelmäßig angeboten? Wer backt ihn und seit wann?",
+      "calendar": {
+        "type": "dated",
+        "label": "31. Oktober 2026, ab 16 Uhr (angekündigt)"
+      }
     }
   ],
   "schema_version": 2,
